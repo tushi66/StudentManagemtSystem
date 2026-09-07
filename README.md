@@ -416,7 +416,7 @@ screenshots/
 
 Then add them to this documentation:
 
-```markdown
+markdown
 ## Dashboard
 
 ![Dashboard](./screenshots/studentdata.png)
@@ -440,7 +440,7 @@ Then add them to this documentation:
 ## Register
 
 ![Register](./screenshots/register.png)
-```
+
 
 ---
 
