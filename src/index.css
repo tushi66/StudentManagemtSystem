@@ -1,1 +1,198 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b7b87;
+  background: #f5f3fb;
+}
+
+/* =========================================
+   TABLE
+========================================= */
+
+.exam-table-wrapper {
+  width: 100%;
+}
+
+
+.exam-table-header {
+  display: grid;
+
+  grid-template-columns:
+    1.5fr
+    1.15fr
+    1fr
+    1.15fr
+    0.7fr;
+
+  padding: 0 8px 12px;
+
+  color: #a9b5c0;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+.exam-row {
+  display: grid;
+
+  grid-template-columns:
+    1.5fr
+    1.15fr
+    1fr
+    1.15fr
+    0.7fr;
+
+  align-items: center;
+
+  min-height: 78px;
+
+  padding: 8px;
+
+  border-bottom: 1px solid #f4f4f4;
+}
+
+
+/* Student */
+
+.student-cell {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.student-cell img {
+  width: 34px;
+
+  height: 34px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+
+.student-cell strong {
+  display: block;
+
+  color: #27516b;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+
+.student-cell small {
+  display: block;
+
+  color: #999;
+
+  font-size: 9px;
+
+  margin-top: 3px;
+}
+
+
+/* Subject */
+
+.subject-cell {
+  color: #777;
+
+  font-size: 12px;
+}
+
+
+/* Marks */
+
+.marks-cell {
+  color: #777;
+
+  font-size: 12px;
+
+  font-weight: 500;
+}
+
+
+/* Exam type */
+
+.exam-type {
+  font-size: 11px;
+
+  color: #666;
+}
+
+
+.exam-type.online-exam {
+  color: #666;
+}
+
+
+.exam-type.missed-exam {
+  color: #e77d80;
+
+  font-weight: 600;
+}
+
+
+.exam-type.class-exam {
+  color: #666;
+}
+
+
+/* Actions */
+
+.action-cell {
+  display: flex;
+
+  gap: 8px;
+
+  align-items: center;
+}
+
+
+.edit-btn,
+.delete-btn {
+  border: none;
+
+  background: transparent;
+
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+
+.edit-btn {
+  color: #db86b5;
+}
+
+
+.delete-btn {
+  color: #e66f75;
+}
+
+
+@media (max-width: 700px) {
+
+  .exam-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .exam-table-header,
+  .exam-row {
+    min-width: 700px;
+  }
+
+}

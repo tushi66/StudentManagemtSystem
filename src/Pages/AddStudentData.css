@@ -1,0 +1,237 @@
+.add-student-page {
+    min-height: calc(100vh - 56px);
+    background: #f7f7fb;
+}
+
+.add-student-top {
+    background: linear-gradient(
+        135deg,
+        #6324f5,
+        #7c29d9
+    );
+
+    color: white;
+
+    padding: 35px 50px;
+}
+
+
+.add-student-top h1 {
+    margin: 0;
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+
+.add-student-top p {
+    margin: 7px 0 0;
+
+    font-size: 13px;
+
+    opacity: 0.85;
+}
+
+
+.add-student-container {
+    max-width: 850px;
+
+    margin: 40px auto;
+
+    padding: 0 20px;
+}
+
+
+
+.add-student-card {
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 8px 30px rgba(60, 30, 100, 0.08);
+}
+
+
+.card-title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+.add-profile-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #eee8ff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 25px;
+}
+
+
+.card-title h2 {
+    margin: 0;
+
+    font-size: 20px;
+
+    color: #333;
+}
+
+
+.card-title p {
+    margin: 4px 0 0;
+
+    color: #999;
+
+    font-size: 12px;
+}
+
+
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+
+.form-group label {
+    display: block;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: #555;
+
+    margin-bottom: 8px;
+}
+
+
+.form-group input,
+.form-group select {
+    width: 100%;
+
+    height: 46px;
+
+    border: 1px solid #e0e0e0;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    padding: 0 15px;
+
+    font-size: 13px;
+
+    background: white;
+
+    transition: 0.2s;
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #7025e8;
+
+    box-shadow:
+        0 0 0 3px rgba(112, 37, 232, 0.1);
+}
+
+
+.form-group small {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 10px;
+
+    color: #999;
+}
+
+
+
+.form-buttons {
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #eeeeee;
+}
+
+
+.cancel-button,
+.save-button {
+    border: none;
+
+    height: 44px;
+
+    padding: 0 28px;
+
+    border-radius: 22px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+.cancel-button {
+    background: #eeeeee;
+
+    color: #555;
+}
+
+
+.cancel-button:hover {
+    background: #e2e2e2;
+}
+
+
+.save-button {
+    background: linear-gradient(
+        90deg,
+        #6824ef,
+        #8b25d9
+    );
+
+    color: white;
+}
+
+
+.save-button:hover {
+    opacity: 0.9;
+}
+
+
+.save-button:disabled {
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}

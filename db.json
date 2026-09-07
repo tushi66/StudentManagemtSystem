@@ -1,9 +1,148 @@
 {
-    "student" : {
-        "id" : "1",
-        "Name": "Tushar",
-        "Subjects": "Science",
-        "Marks": "85/100",
-        "TypeoExam": "Online Exam"
-}
+  "student": [
+    {
+      "id": "1",
+      "name": "TUSHAR",
+      "subject": "Math",
+      "marks": 95,
+      "typeOfExam": "Online Exam"
+    },
+    {
+      "id": "2",
+      "name": "Rahul Patel",
+      "subject": "Science",
+      "marks": 90,
+      "typeOfExam": "Class Exam"
+    },
+    {
+      "id": "4",
+      "name": "Priya Patel",
+      "subject": "Hindi",
+      "marks": 0,
+      "typeOfExam": "Missed Exam"
+    },
+    {
+      "id": "5",
+      "name": "Rohan Shah",
+      "subject": "English Literature",
+      "marks": 75,
+      "typeOfExam": "Online Exam"
+    },
+    {
+      "id": "6",
+      "name": "Neha Patel",
+      "subject": "Math",
+      "marks": 92,
+      "typeOfExam": "Class Exam"
+    },
+    {
+      "name": "Yash",
+      "subject": "English Literature",
+      "marks": 98,
+      "typeOfExam": "Class Exam",
+      "id": "ciSLwoGj3nA"
+    },
+    {
+      "id": "7",
+      "name": "Priya Patel",
+      "subject": "Hindi",
+      "marks": 0,
+      "typeOfExam": "Missed Exam"
+    },
+    {
+      "id": "8",
+      "name": "Rohan Shah",
+      "subject": "English Literature",
+      "marks": 75,
+      "typeOfExam": "Online Exam"
+    },
+    {
+      "id": "9",
+      "name": "Neha Patel",
+      "subject": "Math",
+      "marks": 92,
+      "typeOfExam": "Class Exam"
+    },
+    {
+      "name": "Yash",
+      "subject": "English Literature",
+      "marks": 98,
+      "typeOfExam": "Class Exam",
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "name": "Priya Patel",
+      "subject": "Hindi",
+      "marks": 0,
+      "typeOfExam": "Missed Exam"
+    },
+    {
+      "id": "12",
+      "name": "Rohan Shah",
+      "subject": "English Literature",
+      "marks": 75,
+      "typeOfExam": "Online Exam"
+    },
+    {
+      "id": "13",
+      "name": "Neha Patel",
+      "subject": "Math",
+      "marks": 92,
+      "typeOfExam": "Class Exam"
+    },
+    {
+      "name": "Yash",
+      "subject": "English Literature",
+      "marks": 98,
+      "typeOfExam": "Class Exam",
+      "id": "14"
+    },
+    {
+      "id": "15",
+      "name": "Priya Patel",
+      "subject": "Hindi",
+      "marks": 0,
+      "typeOfExam": "Missed Exam"
+    },
+    {
+      "id": "16",
+      "name": "Rohan Shah",
+      "subject": "English Literature",
+      "marks": 75,
+      "typeOfExam": "Online Exam"
+    },
+    {
+      "id": "17",
+      "name": "Neha Patel",
+      "subject": "Math",
+      "marks": 92,
+      "typeOfExam": "Class Exam"
+    },
+    {
+      "name": "Yash",
+      "subject": "English Literature",
+      "marks": 98,
+      "typeOfExam": "Class Exam",
+      "id": "18"
+    },
+    {
+      "name": "meet",
+      "subject": "Maths",
+      "marks": 80,
+      "typeOfExam": "Class Exam",
+      "id": "B5GjJNuDKIE"
+    },
+    {
+      "name": "Jay",
+      "subject": "Maths",
+      "marks": 0,
+      "typeOfExam": "Missed Exam",
+      "id": "Mi-qovBoH7U"
+    }
+  ],
+
+  "users": []
+
+  "$schema": "./node_modules/json-server/schema.json"
 }

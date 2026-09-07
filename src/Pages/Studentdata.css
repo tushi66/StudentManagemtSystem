@@ -1,0 +1,476 @@
+
+.student-page {
+    min-height: 100vh;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+.student-header {
+    background: linear-gradient(
+        135deg,
+        #6324f5,
+        #7c29d9
+    );
+
+    padding: 28px 45px;
+    color: white;
+}
+
+
+.header-inner {
+    max-width: 1100px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.profile-image {
+    width: 82px;
+    height: 82px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    border: 3px solid white;
+}
+
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.profile-section h2 {
+    font-size: 23px;
+    margin: 0 0 5px;
+    font-weight: 700;
+}
+
+
+.profile-section p {
+    margin: 0;
+
+    font-size: 12px;
+
+    opacity: 0.85;
+}
+
+.statistics {
+    display: flex;
+    gap: 50px;
+}
+
+
+.stat {
+    text-align: center;
+}
+
+
+.stat h3 {
+    margin: 0;
+
+    font-size: 20px;
+}
+
+
+.stat span {
+    display: block;
+
+    font-size: 11px;
+
+    opacity: 0.85;
+}
+
+.add-section {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 25px 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+.student-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #eeeeee;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+
+    position: relative;
+}
+
+
+.student-icon span {
+    position: absolute;
+
+    right: -3px;
+    top: -5px;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    background: #25d5b5;
+
+    color: white;
+
+    font-size: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.student-form {
+    flex: 1;
+
+    display: flex;
+
+    align-items: end;
+
+    gap: 25px;
+}
+
+
+.input-box {
+    flex: 1;
+}
+
+
+.input-box label {
+    display: block;
+
+    font-size: 11px;
+
+    color: #999;
+
+    margin-bottom: 7px;
+}
+
+
+.input-box input,
+.input-box select {
+    width: 100%;
+
+    height: 38px;
+
+    border: none;
+
+    outline: none;
+
+    background: #eeeeee;
+
+    border-radius: 20px;
+
+    padding: 0 17px;
+
+    color: #555;
+
+    font-size: 12px;
+}
+
+
+.add-button {
+    border: none;
+
+    background: linear-gradient(
+        90deg,
+        #6824ef,
+        #8b25d9
+    );
+
+    color: white;
+
+    border-radius: 25px;
+
+    padding: 12px 28px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+
+.add-button:hover {
+    opacity: 0.9;
+}
+
+.student-content {
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 25px 45px;
+}
+
+
+.filter-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+
+.exam-tabs {
+    display: flex;
+
+    gap: 25px;
+}
+
+
+.exam-tabs button {
+    border: none;
+
+    background: none;
+
+    font-size: 13px;
+
+    color: #777;
+
+    cursor: pointer;
+
+    padding-bottom: 8px;
+}
+
+
+.exam-tabs button.active {
+    color: #6727db;
+
+    font-weight: 600;
+
+    border-bottom: 2px solid #6727db;
+}
+
+
+.search-box {
+    width: 155px;
+
+    height: 32px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 12px;
+}
+
+
+.search-box input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 11px;
+}
+
+
+.search-box span {
+    font-size: 14px;
+}
+
+
+.table-header {
+    display: grid;
+
+    grid-template-columns:
+        2fr
+        1.5fr
+        1.2fr
+        1.5fr
+        0.8fr;
+
+    padding: 0 10px 10px 10px;
+
+    color: #b5b5b5;
+
+    font-size: 11px;
+}
+
+
+.student-row {
+    display: grid;
+
+    grid-template-columns:
+        2fr
+        1.5fr
+        1.2fr
+        1.5fr
+        0.8fr;
+
+    align-items: center;
+
+    min-height: 75px;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    padding: 8px 10px;
+}
+
+
+.student-name {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.small-avatar {
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50%;
+
+    background: #eeeeee;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+.student-name strong {
+    display: block;
+
+    color: #27516c;
+
+    font-size: 14px;
+}
+
+
+.student-name small {
+    display: block;
+
+    color: #999;
+
+    font-size: 10px;
+
+    margin-top: 2px;
+}
+
+
+.student-subject,
+.student-marks {
+    color: #777;
+
+    font-size: 13px;
+}
+
+
+.exam-status {
+    font-size: 12px;
+
+    font-weight: 500;
+}
+
+
+.class-exam {
+    color: #777;
+}
+
+
+.online-exam {
+    color: #777;
+}
+
+
+.missed-exam {
+    color: #ed8d8d;
+
+    font-weight: 600;
+}
+
+
+
+.actions {
+    display: flex;
+
+    gap: 8px;
+}
+
+
+.edit-btn,
+.delete-btn {
+    border: none;
+
+    background: none;
+
+    font-size: 11px;
+
+    cursor: pointer;
+}
+
+
+.edit-btn {
+    color: #c678c9;
+}
+
+
+.delete-btn {
+    color: #e96f6f;
+}
+
+.no-data {
+    text-align: center;
+
+    padding: 50px;
+
+    color: #999;
+}
+

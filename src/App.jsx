@@ -1,17 +1,52 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import './App.css'
-import Navbar  from "./Component/Navbar"
-import Studentdata from "./Component/Studentdata" 
+import Headers from "./Component/Header";
 
-function App() {
+import Studentdata from "./pages/Studentdata";
+import AddStudentData from "./pages/AddStudentData";
+import UserProfile from "./pages/UserProfile";
+import Signin from "./pages/Signin";
+import Register from "./pages/Register";
 
-  return (
-    <>
-    <Navbar />
-    
-      <Studentdata/>
-    </>
-  )
-}
+const App = () => {
+    return (
+        <>
+            <Headers />
 
-export default App
+            <Routes>
+
+                <Route
+                    path="/"
+                    element={<Studentdata />}
+                />
+
+                <Route
+                    path="/add-student"
+                    element={<AddStudentData />}
+                />
+
+                <Route
+                    path="/student-list"
+                    element={<Studentdata />}
+                />
+
+                <Route
+                    path="/user-profile"
+                    element={<UserProfile />}
+                />
+
+                <Route
+                    path="/signin"
+                    element={<Signin />}
+                />
+
+                <Route path="/register" element={<Register />} />
+
+
+            </Routes>
+        </>
+    );
+};
+
+export default App;
