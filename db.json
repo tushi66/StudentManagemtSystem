@@ -1,0 +1,9 @@
+{
+    "student" : {
+        "id" : "1",
+        "Name": "Tushar",
+        "Subjects": "Science",
+        "Marks": "85/100",
+        "TypeoExam": "Online Exam"
+}
+}
