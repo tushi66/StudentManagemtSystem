@@ -419,27 +419,27 @@ Then add them to this documentation:
 markdown
 ## Dashboard
 
-![Dashboard](./screenshots/studentdata.png)
+![Dashboard](./studentdata.png)
 
 ## Add Student
 
-![Add Student](./screenshots/add-student.png)
+![Add Student](./add-student.png)
 
 ## Student List
 
-![Student List](./screenshots/student-list.png)
+![Student List](./student-list.png)
 
 ## User Profile
 
-![User Profile](./screenshots/user-profile.png)
+![User Profile](./user-profile.png)
 
 ## Sign In
 
-![Sign In](./screenshots/signin.png)
+![Sign In](./signin.png)
 
 ## Register
 
-![Register](./screenshots/register.png)
+![Register](./register.png)
 
 
 ---
